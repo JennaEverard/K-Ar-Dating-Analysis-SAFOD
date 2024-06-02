@@ -1,5 +1,7 @@
 # SAFOD-K-Ar-Dating-Analysis
 
+A webapp for plotting isochrons and calculating authigenic illite ages of samples from the SAFOD (San Andreas Fault Observatory at Depth) core, particularly the regions 3188-3198 meters and 3304-3311 meters.
+
 ## INPUT FILE FORMAT
 
 Input file needs to be a csv with the following columns (named exactly the same):
@@ -13,10 +15,6 @@ Input file needs to be a csv with the following columns (named exactly the same)
 
 The data for the bulk data (if applicable) should always be **the last row**
 
-## SAMPLE INPUT FILE
+## GETTING STARTED
 
-sf | illite | illiteError | Musc | MuscError | age | ageError
---- | --- | --- | --- |--- |--- |--- 
-0-0.2 | 0.9 | 0.02 | 0.04 | 0.01 | 4 | 1.2
-0.2-0.5 | 0.5 | 0.02 | 0.04 | 0.005 | 5 | 0.1
-bulk | 0.2 | 0.009 | 0.02 | 0.003 | 8 | 0.05
+
